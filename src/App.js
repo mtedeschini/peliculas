@@ -14,16 +14,23 @@ function App() {
   let peliculas = peliculasJson; //Importo json con info películas
   let peliculasPorPagina = [];
 
-  const buscarPelicula = () => {
-    let url = "https://lucasmoy.dev/data/react/peliculas.json";
-    fetch (url, {
-      "method" : "GET",
-      "headers": {
-        "Accept": 'application/json',
-        "Content-Type" : 'application/json'
-      }
-    })
+  const buscarPelicula = async () => {
+    let url = "https://cors-anywhere.herokuapp.com/https://lucasmoy.dev/data/react/peliculas.json";
+
+    let respuesta = await fetch(url, {
+        "method" : "GET",
+        "mode": "no-cors",
+        "headers": {
+          "Accept": 'application/json',
+          "Content-Type" : 'application/json',
+          "Origin": 'ttps://lucasmoy.dev'
+        }
+    });
+    let json = await respuesta.json();
+    alert(json);
   }
+
+  buscarPelicula();
 
   const cargarPeliculas = () => {
     //Si estoy en pagina 1, primera pagina va a mostrar la pelicula 0 a 4.
@@ -38,6 +45,7 @@ function App() {
   }
   
   cargarPeliculas();
+
   
   return (
     <PageWrapper 
