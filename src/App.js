@@ -4,15 +4,46 @@ import Pelicula from './Pelicula';
 import PageWrapper from './PageWrapper';
 import peliculasJson from './peliculas.json';
 import Paginacion from './Paginacion';
+import { useState } from 'react';
 
 function App() {
 
+  const [paginaActual, setPaginaActual] = useState (1);
+  const [cantidadActual, setCantidadActual] = useState (3);
+  var totalPorPagina = cantidadActual;
   let peliculas = peliculasJson; //Importo json con info películas
+  let peliculasPorPagina = [];
 
+  const buscarPelicula = () => {
+    let url = "https://lucasmoy.dev/data/react/peliculas.json";
+    fetch (url, {
+      "method" : "GET",
+      "headers": {
+        "Accept": 'application/json',
+        "Content-Type" : 'application/json'
+      }
+    })
+  }
+
+  const cargarPeliculas = () => {
+    //Si estoy en pagina 1, primera pagina va a mostrar la pelicula 0 a 4.
+    // peliculas.slice(0, 5);
+    // peliculas.slice(5, 10);
+    peliculasPorPagina = peliculas.slice((paginaActual - 1 ) * totalPorPagina, paginaActual * totalPorPagina )
+    }
+  
+  const getTotalPaginas = () =>{
+    let cantidadPeliculas = peliculas.length;
+    return Math.ceil(cantidadPeliculas / totalPorPagina);
+  }
+  
+  cargarPeliculas();
+  
   return (
-    <PageWrapper>
+    <PageWrapper 
+    cantidadPeliculas = {peliculas.length}>
       
-      {peliculas.map(pelicula => {
+      {peliculasPorPagina.map(pelicula => {
         return(
           <Pelicula 
             titulo={pelicula.titulo} 
@@ -24,13 +55,21 @@ function App() {
             mmpa= {pelicula.mmpa} 
             release= {pelicula.release} 
             director= {pelicula.director} 
-            actor= {pelicula.actores} 
+            actores= {pelicula.actores} 
           />
           )})}
 
-      <Paginacion pagina={2} total={4} onChange={(pagina) => {
-        alert(pagina)
-      }}/>
+      <Paginacion 
+      pagina={paginaActual} 
+      total={getTotalPaginas()} 
+      cambiarPagina={(pagina) => {
+         setPaginaActual(pagina);
+      }}
+      cantidad={cantidadActual}
+      cambiarCantidad={(cantidad) => {
+        setCantidadActual(cantidad);
+      }}
+      />
 
     </PageWrapper>
   );

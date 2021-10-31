@@ -1,6 +1,6 @@
 [
     {
-      "titulo": "oblivion (2012)",
+      "titulo": "oblivion",
       "anio": "2012",
       "calificacion": "8.1",
       "director": "Joss Whedon",
@@ -13,8 +13,9 @@
     
     },
     {
-      "titulo": "into the wild (2014)",
+      "titulo": "into the wild",
       "calificacion": "7.5",
+      "anio": "2014",
       "director": "Joss Whedon",
       "actores": "Robert Downey Jr., Chris Evans, Chris Hemsworth",
       "release": "1 May 2015",
@@ -24,7 +25,8 @@
       "descripcion": "Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity..."
     },
     {
-      "titulo": "BLADE RUNNER (2015)",
+      "titulo": "BLADE RUNNER",
+      "anio": "2015",
       "calificacion": "7.3",
       "director": "Peyton Reed",
       "actores": "Paul Rudd, Michael Douglas",
@@ -35,7 +37,8 @@
       "descripcion": "Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help..."
     },
     {
-      "titulo": "MULHOLLAND PRIDE (2013)",
+      "titulo": "MULHOLLAND PRIDE",
+      "anio": "2013",
       "calificacion": "7.2",
       "director": "Shane Black",
       "actores": "Robert Downey Jr., Guy Pearce,Don Cheadle",
@@ -46,7 +49,8 @@
       "descripcion": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution."
     },
     {
-      "titulo": "SKYFALL: EVIL OF BOSS (2013)",
+      "titulo": "SKYFALL: EVIL OF BOSS",
+      "anio": "2013",
       "calificacion": "7.0",
       "director": "Alan Taylor",
       "actores": "Chris Hemsworth, Natalie Portman,Tom Hiddleston",
@@ -57,7 +61,8 @@
       "descripcion": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution."
     },
     {
-      "titulo": "oblivion (2012)",
+      "titulo": "oblivion",
+      "anio": "2012",
       "calificacion": "8.1",
       "director": "Joss Whedon",
       "actores": "Robert Downey Jr., Chris Evans, Chris Hemsworth",
@@ -66,10 +71,12 @@
       "img": "mv1.jpg",
       "mmpa": "PG-13",
       "descripcion": "Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity..."
+    
     },
     {
-      "titulo": "into the wild (2014)",
+      "titulo": "into the wild",
       "calificacion": "7.5",
+      "anio": "2014",
       "director": "Joss Whedon",
       "actores": "Robert Downey Jr., Chris Evans, Chris Hemsworth",
       "release": "1 May 2015",
@@ -79,7 +86,8 @@
       "descripcion": "Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity..."
     },
     {
-      "titulo": "BLADE RUNNER (2015)",
+      "titulo": "BLADE RUNNER",
+      "anio": "2015",
       "calificacion": "7.3",
       "director": "Peyton Reed",
       "actores": "Paul Rudd, Michael Douglas",
@@ -90,7 +98,8 @@
       "descripcion": "Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help..."
     },
     {
-      "titulo": "MULHOLLAND PRIDE (2013)",
+      "titulo": "MULHOLLAND PRIDE",
+      "anio": "2013",
       "calificacion": "7.2",
       "director": "Shane Black",
       "actores": "Robert Downey Jr., Guy Pearce,Don Cheadle",
@@ -101,62 +110,8 @@
       "descripcion": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution."
     },
     {
-      "titulo": "SKYFALL: EVIL OF BOSS (2013)",
-      "calificacion": "7.0",
-      "director": "Alan Taylor",
-      "actores": "Chris Hemsworth, Natalie Portman,Tom Hiddleston",
-      "release": "1 May 2015",
-      "runtime": "2h 21min",
-      "img": "mv5.jpg",
-      "mmpa": "PG-13",
-      "descripcion": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution."
-    },
-    {
-      "titulo": "oblivion (2012)",
-      "calificacion": "8.1",
-      "director": "Joss Whedon",
-      "actores": "Robert Downey Jr., Chris Evans, Chris Hemsworth",
-      "release": "1 May 2015",
-      "runtime": "2h 21min",
-      "img": "mv1.jpg",
-      "mmpa": "PG-13",
-      "descripcion": "Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity..."
-    },
-    {
-      "titulo": "into the wild (2014)",
-      "calificacion": "7.5",
-      "director": "Joss Whedon",
-      "actores": "Robert Downey Jr., Chris Evans, Chris Hemsworth",
-      "release": "1 May 2015",
-      "runtime": "2h 21min",
-      "img": "mv2.jpg",
-      "mmpa": "PG-13",
-      "descripcion": "Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity..."
-    },
-    {
-      "titulo": "BLADE RUNNER (2015)",
-      "calificacion": "7.3",
-      "director": "Peyton Reed",
-      "actores": "Paul Rudd, Michael Douglas",
-      "release": "1 May 2015",
-      "runtime": "2h 21min",
-      "img": "mv3.jpg",
-      "mmpa": "PG-13",
-      "descripcion": "Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help..."
-    },
-    {
-      "titulo": "MULHOLLAND PRIDE (2013)",
-      "calificacion": "7.2",
-      "director": "Shane Black",
-      "actores": "Robert Downey Jr., Guy Pearce,Don Cheadle",
-      "release": "1 May 2015",
-      "runtime": "2h 21min",
-      "img": "mv4.jpg",
-      "mmpa": "PG-13",
-      "descripcion": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution."
-    },
-    {
-      "titulo": "SKYFALL: EVIL OF BOSS (2013)",
+      "titulo": "SKYFALL: EVIL OF BOSS",
+      "anio": "2013",
       "calificacion": "7.0",
       "director": "Alan Taylor",
       "actores": "Chris Hemsworth, Natalie Portman,Tom Hiddleston",
@@ -166,4 +121,5 @@
       "mmpa": "PG-13",
       "descripcion": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution."
     }
+  
   ]
